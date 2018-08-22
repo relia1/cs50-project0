@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px) {
+  body {
+    background-color: green; } }
+.navbar {
+  padding-left: 1%;
+  font-size: 20px; }
+
+#fry_and_river {
+  font-size: 30px; }
+
+body {
+  background-color: #67BCDB; }
+
+img {
+  border: 1px solid #021a40; }
+
+.cat_pics {
+  width: 35%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+table {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 640px;
+  /* Table reset stuff */
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td {
+  border: 0 none;
+  height: 30px; }
+
+th {
+  border: 0 none;
+  height: 30px;
+  /* Gradient Background */
+  background: linear-gradient(#333 0%, #444 100%);
+  color: #FFF;
+  font-weight: bold;
+  height: 40px;
+  text-align: center; }
+
+td {
+  background: #FAFAFA;
+  text-align: center; }
+
+/* Zebra Stripe Rows */
+tr:nth-child(even) td {
+  background: #EEE; }
+tr:nth-child(odd) td {
+  background: #FDFDFD; }
+tr:first-child th:last-child {
+  border-radius: 0 5px 0 0; }
+tr td:hover {
+  background: #666;
+  color: #FFF; }
+
+/* Hover cell effect! */
+.r, .bl, .g {
+  font-style: italic; }
+
+.r {
+  color: red; }
+
+.bl {
+  color: blue; }
+
+.g {
+  color: green; }
